@@ -1,6 +1,6 @@
 {
   "name": "svg-icon-toolkit",
-  "version": "1.0.0", 
+  "version": "1.0.1",
   "description": "The SVG Icon Toolkit is a simple JavaScript utility for managing and using SVG icons in web projects. It allows developers to add, remove, and get SVG icons, and generate HTML with customizable attributes for embedding icons into web pages.",
   "main": "./src/index.js",
   "scripts": {
@@ -16,5 +16,8 @@
     "toolkit"
   ],
   "author": "YaroPlotnik",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "microservice-health-checker": "^1.0.0"
+  }
 }
